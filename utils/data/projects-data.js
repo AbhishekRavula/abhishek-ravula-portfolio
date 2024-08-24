@@ -8,7 +8,7 @@ export const projectsData = [
     id: 1,
     name: "Musify",
     description:
-      "Musify is a Spotify-inspired web application that I developed to replicate the core functionalities of the popular music streaming platform. Built using Django REST Framework for the backend and ReactJs for the frontend, Musify allows users to explore, search, and listen to music tracks. The application leverages SQLite for data storage, ensuring efficient data management and retrieval",
+      "Musify is a Spotify-inspired web application that I developed to replicate the core functionalities of the popular music streaming platform. Built using Django REST Framework for the backend and ReactJs for the frontend, Musify allows users to explore, search, and listen to music tracks. The application leverages SQLite for data storage, ensuring efficient data management and retrieval.",
     tools: ["ReactJs", "Django Rest Framework", "SQLite"],
     role: "Full Stack Developer",
     code: "https://github.com/AbhishekRavula/spotify-clone",
@@ -20,8 +20,8 @@ export const projectsData = [
     id: 5,
     name: "Phantom Fireworks",
     description:
-      "Phantom Fireworks is an e-commerce website for purchasing fireworks. I proficiently developed a responsive site, ensuring seamless functionality for authentication management, cart operations, orders, and order details by leveraging Shopify's APIs and RemixJS. Additionally, I created a script using the Oclif CLI framework to automate status code checks for all existing URLs, generating Excel reports to streamline URL verification and maintenance for the client",
-    tools: ["RemixJs", "Tailwind CSS", "Shopify", "oclif"],
+      "Phantom Fireworks is a responsive e-commerce website developed to provide a seamless shopping experience for users. As a Full Stack Developer, I efficiently leveraged Shopify's APIs and RemixJS to implement comprehensive features, including robust authentication management, dynamic cart functionality, and detailed order processing. Additionally, I developed a custom script with Oclif to automate URL verification, ensuring smooth UI integration and improved performance.",
+    tools: ["Typescript", "RemixJs", "Tailwind CSS", "Shopify", "oclif"],
     code: "",
     demo: "https://fireworks.com",
     image: "",
@@ -31,8 +31,15 @@ export const projectsData = [
     id: 4,
     name: "Findz",
     description:
-      "Findz is a mobile and web app for collaborative bookmarking. As a Full Stack Developer, I have Implemented webhooks to store Twilio message statuses in Firestore, led a project to enhance user engagement through Firebase Realtime Database and Cloud Functions, and contributed to the Progressive Web App (PWA) version by developing responsive page layouts and auto-scroll functionality, ensuring a seamless cross-device experience",
-    tools: ["React Native", "ReactJs", "ReduxJs", "Firebase", "Material UI"],
+      "Findz is a mobile and web app for collaborative bookmarking. As a Full Stack Developer, I have Implemented webhooks to store Twilio message statuses in Firestore, led a project to enhance user engagement through Firebase Realtime Database and Cloud Functions, and contributed to the Progressive Web App (PWA) version by developing responsive page layouts and auto-scroll functionality, ensuring a seamless cross-device experience.",
+    tools: [
+      "Typescript",
+      "React Native",
+      "ReactJs",
+      "ReduxJs",
+      "Firebase",
+      "Material UI",
+    ],
     code: "",
     demo: "https://play.google.com/store/apps/details?id=com.gsynergy.findz&hl=en_IN",
     image: "",
@@ -42,7 +49,7 @@ export const projectsData = [
     id: 2,
     name: "Todo List",
     description:
-      "Todo List is a task management web application designed to help users organize and track their daily activities efficiently. Developed using ReactJs for the frontend, ExpressJs for the backend, and MongoDB for data storage, this application provides a seamless user experience for creating, updating, and managing tasks",
+      "Todo List is a task management web application designed to help users organize and track their daily activities efficiently. Developed using ReactJs for the frontend, ExpressJs for the backend, and MongoDB for data storage, this application provides a seamless user experience for creating, updating, and managing tasks.",
     tools: [
       "Typescript",
       "ReactJs",
