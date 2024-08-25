@@ -20,7 +20,7 @@ export const projectsData = [
     id: 5,
     name: "Phantom Fireworks",
     description:
-      "Phantom Fireworks is a responsive e-commerce website developed to provide a seamless shopping experience for users. As a Full Stack Developer, I efficiently leveraged Shopify's APIs and RemixJS to implement comprehensive features, including robust authentication management, dynamic cart functionality, and detailed order processing. Additionally, I developed a custom script with Oclif to automate URL verification, ensuring smooth UI integration and improved performance.",
+      "Phantom Fireworks is a responsive e-commerce website developed to provide a seamless shopping experience for users. As a Front-End Developer, I efficiently leveraged Shopify's APIs and RemixJS to implement comprehensive features, including robust authentication management, dynamic cart functionality, and detailed order processing. Additionally, I developed a custom script with Oclif to automate URL verification, ensuring smooth UI integration and improved performance.",
     tools: ["Typescript", "RemixJs", "Tailwind CSS", "Shopify", "oclif"],
     code: "",
     demo: "https://fireworks.com",
