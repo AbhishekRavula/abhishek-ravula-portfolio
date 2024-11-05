@@ -6,18 +6,6 @@ import travel from "/public/image/travel.jpg";
 export const projectsData = [
   {
     id: 1,
-    name: "Musify",
-    description:
-      "Musify is a Spotify-inspired web application that I developed to replicate the core functionalities of the popular music streaming platform. Built using Django REST Framework for the backend and ReactJs for the frontend, Musify allows users to explore, search, and listen to music tracks. The application leverages SQLite for data storage, ensuring efficient data management and retrieval.",
-    tools: ["ReactJs", "Django Rest Framework", "SQLite"],
-    role: "Full Stack Developer",
-    code: "https://github.com/AbhishekRavula/spotify-clone",
-    demo: "https://musify-abhishek.vercel.app",
-    image: "",
-  },
-
-  {
-    id: 5,
     name: "Phantom Fireworks",
     description:
       "Phantom Fireworks is a responsive e-commerce website developed to provide a seamless shopping experience for users. As a Front-End Developer, I efficiently leveraged Shopify's APIs and RemixJS to implement comprehensive features, including robust authentication management, dynamic cart functionality, and detailed order processing. Additionally, I developed a custom script with Oclif to automate URL verification, ensuring smooth UI integration and improved performance.",
@@ -25,10 +13,21 @@ export const projectsData = [
     code: "",
     demo: "https://fireworks.com",
     image: "",
-    role: "Front-End Developer",
+    role: "Frontend Developer",
   },
   {
-    id: 4,
+    id: 2,
+    name: "AI Chat Interface",
+    description:
+      "The AI Chat Interface is a dynamic web-based chat application designed to deliver real-time interactions and intelligent responses. Built with React.js, Tailwind CSS, and TypeScript, the interface features intuitive chat components like message bubbles, typing indicators, and markdown support. I integrated the Hugging Face API for responsive, AI-driven interactions and implemented an export chat feature, allowing users to save conversations. The app is fully responsive with both light and dark themes and achieved perfect Lighthouse scores across all categories, including performance, accessibility, and SEO.",
+    tools: ["React.js", "Tailwind CSS", "TypeScript", "Hugging Face API"],
+    role: "Frontend Developer",
+    code: "https://github.com/AbhishekRavula/ai-chat-interface",
+    demo: "https://ai-chat-abhishek.vercel.app/",
+    image: "",
+  },
+  {
+    id: 3,
     name: "Findz",
     description:
       "Findz is a mobile and web app for collaborative bookmarking. As a Full Stack Developer, I have Implemented webhooks to store Twilio message statuses in Firestore, led a project to enhance user engagement through Firebase Realtime Database and Cloud Functions, and contributed to the Progressive Web App (PWA) version by developing responsive page layouts and auto-scroll functionality, ensuring a seamless cross-device experience.",
@@ -46,7 +45,29 @@ export const projectsData = [
     role: "Full Stack Developer",
   },
   {
-    id: 2,
+    id: 4,
+    name: "My Zindagi",
+    description:
+      "My Zindagi is a mobile application developed for Edelweiss Tokio Life Insurance, designed to enhance user engagement and streamline insurance services. As a React Native Developer, I played a key role in the development and optimization of this app, focusing on creating a seamless user experience and improving overall app performance",
+    tools: ["React Native", "React Native Paper", "WebEngage"],
+    role: "React Native Developer",
+    code: "",
+    demo: "https://play.google.com/store/apps/details?id=com.etli.myzindagi&hl=en_SG",
+    image: "",
+  },
+  {
+    id: 5,
+    name: "Musify",
+    description:
+      "Musify is a Spotify-inspired web application that I developed to replicate the core functionalities of the popular music streaming platform. Built using Django REST Framework for the backend and ReactJs for the frontend, Musify allows users to explore, search, and listen to music tracks. The application leverages SQLite for data storage, ensuring efficient data management and retrieval.",
+    tools: ["ReactJs", "Django Rest Framework", "SQLite"],
+    role: "Full Stack Developer",
+    code: "https://github.com/AbhishekRavula/spotify-clone",
+    demo: "https://musify-abhishek.vercel.app",
+    image: "",
+  },
+  {
+    id: 6,
     name: "Todo List",
     description:
       "Todo List is a task management web application designed to help users organize and track their daily activities efficiently. Developed using ReactJs for the frontend, ExpressJs for the backend, and MongoDB for data storage, this application provides a seamless user experience for creating, updating, and managing tasks.",
@@ -63,17 +84,6 @@ export const projectsData = [
     role: "Full Stack Developer",
     code: "https://github.com/AbhishekRavula/Todos",
     demo: "https://todo-app-abhishek.vercel.app/",
-    image: "",
-  },
-  {
-    id: 3,
-    name: "My Zindagi",
-    description:
-      "My Zindagi is a mobile application developed for Edelweiss Tokio Life Insurance, designed to enhance user engagement and streamline insurance services. As a React Native Developer, I played a key role in the development and optimization of this app, focusing on creating a seamless user experience and improving overall app performance",
-    tools: ["React Native", "React Native Paper", "WebEngage"],
-    role: "React Native Developer",
-    code: "",
-    demo: "https://play.google.com/store/apps/details?id=com.etli.myzindagi&hl=en_SG",
     image: "",
   },
 ];
