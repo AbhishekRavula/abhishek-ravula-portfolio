@@ -3,7 +3,7 @@ export const experiences = [
     id: 1,
     title: "Software Engineer",
     company: "iorta Technology Solutions",
-    duration: "(Sep 2023 - Present)",
+    duration: "(Sep 2023 - Oct 2024)",
   },
   {
     id: 2,
